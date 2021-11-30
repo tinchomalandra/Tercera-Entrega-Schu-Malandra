@@ -1,3 +1,35 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../../public/img/piano-fondo.jpg);
+  background-size: cover; }
+
+main {
+  margin: 120px; }
+  main .titular {
+    font-family: 'Bebas Neue', cursive;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s; }
+    main .titular:hover {
+      color: orangered; }
+  main .logo-grande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s; }
+    main .logo-grande:hover {
+      transform: scale(1.2); }
+
+@media (max-width: 800px) {
+  main .titular {
+    font-size: x-small; }
+  main .logo-grande {
+    max-width: 300px; } }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -60,7 +92,3 @@
 
 * {
   box-sizing: border-box; }
-
-body {
-  margin: 0px;
-  padding: 0px; }
