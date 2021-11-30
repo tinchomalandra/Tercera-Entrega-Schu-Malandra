@@ -4,9 +4,9 @@ body {
   background-image: url(../../public/img/piano-fondo.jpg);
   background-size: cover; }
 
-main {
+.home-main {
   margin: 120px; }
-  main .titular {
+  .home-main .titular {
     font-family: 'Bebas Neue', cursive;
     font-size: xx-large;
     color: white;
@@ -14,14 +14,14 @@ main {
     justify-content: center;
     align-items: center;
     transition: 1s; }
-    main .titular:hover {
+    .home-main .titular:hover {
       color: orangered; }
-  main .logo-grande {
+  .home-main .logo-grande {
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 1s; }
-    main .logo-grande:hover {
+    .home-main .logo-grande:hover {
       transform: scale(1.2); }
 
 footer {
@@ -120,6 +120,24 @@ footer {
           padding: .5rem 1rem; }
         .navbar-links li.active {
           display: flex; } }
+
+.nov-main .titular {
+  font-family: 'Bebas Neue', cursive;
+  font-size: xx-large;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s; }
+  .nov-main .titular:hover {
+    color: orangered; }
+
+.nov-main .articulos {
+  color: white; }
+  .nov-main .articulos .titulo-art {
+    font-family: 'Bebas Neue', cursive; }
+  .nov-main .articulos .cuerpo-art {
+    font-family: 'Roboto', sans-serif; }
 
 * {
   box-sizing: border-box; }

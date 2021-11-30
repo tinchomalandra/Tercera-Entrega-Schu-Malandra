@@ -1,0 +1,23 @@
+.nov-main{
+    & .titular{
+        font-family: 'Bebas Neue', cursive;
+        font-size: xx-large;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+        &:hover{
+            color: orangered;
+        }
+    }
+    & .articulos{
+        color: white;
+        & .titulo-art{
+            font-family: 'Bebas Neue', cursive;
+        }
+        & .cuerpo-art{
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}
