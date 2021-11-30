@@ -24,11 +24,42 @@ main {
     main .logo-grande:hover {
       transform: scale(1.2); }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem; }
+  footer div p {
+    color: white;
+    font-family: 'Roboto', sans-serif; }
+  footer div ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex; }
+    footer div ul li {
+      list-style-type: none; }
+      footer div ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        display: block;
+        transition: .5s;
+        font-family: 'Roboto', sans-serif; }
+        footer div ul li a:hover {
+          color: orangered; }
+
 @media (max-width: 800px) {
+  body {
+    background-image: url(../../public/img/piano-fondo-mobile.jpg); }
   main .titular {
     font-size: x-small; }
   main .logo-grande {
-    max-width: 300px; } }
+    max-width: 300px; }
+  footer div ul {
+    display: none; }
+  footer div p {
+    justify-content: center; } }
 
 .navbar {
   display: flex;

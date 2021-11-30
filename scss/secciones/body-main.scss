@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../../public/img/piano-fondo.jpg);
+    background-size: cover;
+}
+
+main{
+    margin: 120px;
+    & .titular{
+        font-family: 'Bebas Neue', cursive;
+        font-size: xx-large;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+
+        &:hover{
+            color: orangered;
+        }
+    }
+    & .logo-grande{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    & div p{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    & div ul{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        & li{
+            list-style-type:none;
+            & a{
+                text-decoration: none;
+                color: white;
+                padding: 1rem;
+                display: block;
+                transition: .5s;
+                font-family: 'Roboto', sans-serif;
+                &:hover{
+                    color: orangered;
+                }
+            }
+        }
+    }
+    
+}
+
+
+// MEDIA QUERIES
+@media (max-width: 800px){
+    body{
+        background-image: url(../../public/img/piano-fondo-mobile.jpg);
+    }
+
+    main .titular{
+        font-size: x-small;
+    }
+
+    main .logo-grande{
+        max-width: 300px;
+    }
+
+    footer{
+        & div ul{
+            display: none;
+        }
+
+        & div p{
+            justify-content: center;
+        }
+    }
+}
