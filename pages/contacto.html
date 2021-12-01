@@ -44,21 +44,82 @@
                     <a href="novedades.html">Novedades</a>
                 </li>
                 <li>
-                    <a href="#">Nosotros</a>
+                    <a href="nosotros.html">Nosotros</a>
                 </li>
                 <li>
-                    <a href="#">Servicios</a>
+                    <a href="servicios.html">Servicios</a>
                 </li>
                 <li>
-                    <a href="#">Contacto</a>
+                    <a href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <main class="formulario-contacto">
+        <div class="titular-contacto">
+            <h1>
+                ¡Contactate con nosotros!
+            </h1>
+        </div>
+        <div class="fuente-form container my-5 d-grid gap-5 text-white">
+            <div class="p-5 border">
+                <form class="row g-3" action="">
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">
+                            Nombre
+                        </label>
+                        <input type="text" class="form-control" id="firstName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">
+                            Apellido
+                        </label>
+                        <input type="text" class="form-control" id="lastName" required>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="emailInfo" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailInfo" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="phoneNumber" class="form-label">Teléfono</label>
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="+54 (2474) 154-5307">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="comments" class="form-label">¿Preguntas o comentarios?</label>
+                        <textarea class="form-control" name="" id="comments" rows="3"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-light">Enviar</button>
     
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
 
+    <footer class="mt-auto">
+        <div>
+            <p>
+                Copyright 2021 - MEMDev - Todos los derechos reservados
+            </p>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="#">Whatsapp</a>
+                </li>
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 

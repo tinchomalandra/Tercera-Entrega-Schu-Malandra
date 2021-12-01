@@ -139,5 +139,65 @@ footer {
   .nov-main .articulos .cuerpo-art {
     font-family: 'Roboto', sans-serif; }
 
+.seccion-about .titular-about h1 {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  transition: .5s; }
+  .seccion-about .titular-about h1:hover {
+    color: orangered; }
+
+.seccion-about .parrafo-about p {
+  font-family: 'Roboto', sans-serif;
+  color: white; }
+
+.main-servicios .encabezado {
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: .5s; }
+  .main-servicios .encabezado:hover {
+    color: orangered; }
+
+.main-servicios .texto-info p {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  text-align: center;
+  color: white; }
+
+.main-servicios .titular-serv {
+  font-family: 'Bebas Neue', cursive;
+  color: orange; }
+
+.main-servicios .texto-serv {
+  font-family: 'Roboto', sans-serif;
+  color: white; }
+
+.main-servicios .llamado {
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main-servicios .llamado a {
+    text-decoration: none;
+    color: orangered;
+    transition: .5s; }
+    .main-servicios .llamado a:hover {
+      background-color: white; }
+
+.formulario-contacto .titular-contacto h1 {
+  display: flex;
+  font-family: 'Bebas Neue', cursive;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: .5s; }
+  .formulario-contacto .titular-contacto h1:hover {
+    color: orangered; }
+
+.formulario-contacto .fuente-form {
+  font-family: 'Roboto', sans-serif; }
+
 * {
   box-sizing: border-box; }

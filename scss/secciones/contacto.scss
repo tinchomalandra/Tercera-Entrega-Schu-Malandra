@@ -1,14 +1,16 @@
-.seccion-about{
-    & .titular-about h1{
+.formulario-contacto{
+    & .titular-contacto h1{
+        display: flex;
         font-family: 'Bebas Neue', cursive;
+        justify-content: center;
+        align-items: center;
         color: white;
         transition: .5s;
         &:hover{
             color: orangered;
         }
     }
-    & .parrafo-about p{
+    & .fuente-form{
         font-family: 'Roboto', sans-serif;
-        color: white;
     }
 }
