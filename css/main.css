@@ -26,7 +26,7 @@ body {
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 1rem; }
@@ -61,65 +61,11 @@ footer {
     align-items: center;
     display: flex; } }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: black;
-  color: white; }
-  .navbar-links ul {
-    margin: 0px;
-    padding: 0px;
-    display: flex; }
-  .navbar-links li {
-    list-style-type: none; }
-  .navbar-links li a {
-    text-decoration: none;
-    color: white;
-    padding: 1rem;
-    display: block;
-    transition: .5s;
-    font-family: 'Bebas Neue', cursive; }
-    .navbar-links li a:hover {
-      color: orangered;
-      background-color: #323232; }
-
-.brand-title {
-  margin: .5rem; }
-
-.toggle-button {
-  position: absolute;
-  top: .75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px; }
-  .toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px; }
-
-@media (max-width: 800px) {
-  .toggle-button {
-    display: flex; }
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start; }
-    .navbar-links {
-      display: none;
-      width: 100%; }
-      .navbar-links ul {
-        flex-direction: column;
-        width: 100%; }
-      .navbar-links li {
-        text-align: center; }
-        .navbar-links li a {
-          padding: .5rem 1rem; }
-        .navbar-links li.active {
-          display: flex; } }
+.link-tincho {
+  font-family: 'Bebas Neue', cursive;
+  transition: .3s; }
+  .link-tincho:hover {
+    background-color: orangered; }
 
 .nov-main .titular {
   font-family: 'Bebas Neue', cursive;
