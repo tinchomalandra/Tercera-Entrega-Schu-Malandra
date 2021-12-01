@@ -26,7 +26,7 @@ body{
         align-items: center;
         transition: 1s;
         &:hover{
-            transform: scale(1.2);
+            transform: scale(1.1);
         }
     }
 }
@@ -72,10 +72,6 @@ footer{
 
     main .titular{
         font-size: x-small;
-    }
-
-    main .logo-grande{
-        max-width: 300px;
     }
 
     footer{

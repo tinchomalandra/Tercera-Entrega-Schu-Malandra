@@ -22,7 +22,7 @@ body {
     align-items: center;
     transition: 1s; }
     .home-main .logo-grande:hover {
-      transform: scale(1.2); }
+      transform: scale(1.1); }
 
 footer {
   display: flex;
@@ -54,8 +54,6 @@ footer {
     background-image: url(../../public/img/piano-fondo-mobile.jpg); }
   main .titular {
     font-size: x-small; }
-  main .logo-grande {
-    max-width: 300px; }
   footer div ul {
     display: none; }
   footer div p {
