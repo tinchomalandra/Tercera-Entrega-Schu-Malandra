@@ -74,13 +74,15 @@ footer{
         font-size: x-small;
     }
 
-    footer{
-        & div ul{
+    .footer-pagina{
+        & .redes-footer ul{
             display: none;
         }
 
-        & div p{
+        & .copyright-footer p{
             justify-content: center;
+            align-items: center;
+            display: flex;
         }
     }
 }

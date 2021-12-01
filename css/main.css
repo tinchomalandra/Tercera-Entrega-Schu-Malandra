@@ -54,10 +54,12 @@ footer {
     background-image: url(../../public/img/piano-fondo-mobile.jpg); }
   main .titular {
     font-size: x-small; }
-  footer div ul {
+  .footer-pagina .redes-footer ul {
     display: none; }
-  footer div p {
-    justify-content: center; } }
+  .footer-pagina .copyright-footer p {
+    justify-content: center;
+    align-items: center;
+    display: flex; } }
 
 .navbar {
   display: flex;
