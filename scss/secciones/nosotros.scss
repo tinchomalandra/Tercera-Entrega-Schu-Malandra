@@ -1,14 +1,16 @@
+@import "secciones/variables.scss";
+
 .seccion-about{
     & .titular-about h1{
-        font-family: 'Bebas Neue', cursive;
-        color: white;
+        font-family: $font-main;
+        color: $color-main;
         transition: .5s;
         &:hover{
-            color: orangered;
+            color: $color-secondary;
         }
     }
     & .parrafo-about p{
-        font-family: 'Roboto', sans-serif;
-        color: white;
+        font-family: $font-secondary;
+        color: $color-main;
     }
 }

@@ -1,7 +1,9 @@
+@import "secciones/variables.scss";
+
 .link-tincho{
-    font-family: 'Bebas Neue', cursive;
+    font-family: $font-main;
     transition: .3s;
     &:hover{
-        background-color: orangered;
+        background-color: $color-secondary;
     }
 }

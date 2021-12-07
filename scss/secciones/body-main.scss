@@ -1,3 +1,5 @@
+@import "secciones/variables.scss";
+
 body{
     margin: 0px;
     padding: 0px;
@@ -8,16 +10,16 @@ body{
 .home-main{
     margin: 120px;
     & .titular{
-        font-family: 'Bebas Neue', cursive;
+        font-family: $font-main;
         font-size: xx-large;
-        color: white;
+        color: $color-main;
         display: flex;
         justify-content: center;
         align-items: center;
         transition: 1s;
 
         &:hover{
-            color: orangered;
+            color: $color-secondary;
         }
     }
     & .logo-grande{
@@ -38,8 +40,8 @@ footer{
     align-items: center;
     margin: 1rem;
     & div p{
-        color: white;
-        font-family: 'Roboto', sans-serif;
+        color: $color-main;
+        font-family: $font-secondary;
     }
     & div ul{
         margin: 0px;
@@ -49,13 +51,13 @@ footer{
             list-style-type:none;
             & a{
                 text-decoration: none;
-                color: white;
+                color: $color-main;
                 padding: 1rem;
                 display: block;
                 transition: .5s;
-                font-family: 'Roboto', sans-serif;
+                font-family: $font-secondary;
                 &:hover{
-                    color: orangered;
+                    color: $color-secondary;
                 }
             }
         }
@@ -65,9 +67,9 @@ footer{
 
 
 // MEDIA QUERIES
-@media (max-width: 800px){
+@media (max-width: $width-mobile){
     body{
-        background-image: url(../../public/img/piano-fondo-mobile.jpg);
+        background-image: url(../public/img/piano-fondo-mobile.jpg);
     }
 
     main .titular{

@@ -1,23 +1,25 @@
+@import "secciones/variables.scss";
+
 .nov-main{
     & .titular{
-        font-family: 'Bebas Neue', cursive;
+        font-family: $font-main;
         font-size: xx-large;
-        color: white;
+        color: $color-main;
         display: flex;
         justify-content: center;
         align-items: center;
         transition: 1s;
         &:hover{
-            color: orangered;
+            color: $color-secondary;
         }
     }
     & .articulos{
-        color: white;
+        color: $color-main;
         & .titulo-art{
-            font-family: 'Bebas Neue', cursive;
+            font-family: $font-main;
         }
         & .cuerpo-art{
-            font-family: 'Roboto', sans-serif;
+            font-family: $font-secondary;
         }
     }
 }

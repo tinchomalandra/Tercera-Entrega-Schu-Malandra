@@ -1,16 +1,18 @@
+@import "secciones/variables.scss";
+
 .formulario-contacto{
     & .titular-contacto h1{
         display: flex;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $font-main;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: $color-main;
         transition: .5s;
         &:hover{
-            color: orangered;
+            color: $color-secondary;
         }
     }
     & .fuente-form{
-        font-family: 'Roboto', sans-serif;
+        font-family: $font-secondary;
     }
 }
