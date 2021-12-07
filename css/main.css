@@ -88,7 +88,7 @@ footer {
   .footer-pagina .copyright-footer p {
     justify-content: center;
     align-items: center;
-    display: flex; } }
+    display: block; } }
 
 .link-tincho {
   font-family: "Bebas Neue", cursive;
@@ -179,6 +179,22 @@ footer {
 
 .formulario-contacto .fuente-form {
   font-family: "Roboto", sans-serif; }
+
+.mapa-mobile {
+  display: none; }
+
+.mapa-desktop {
+  display: flex;
+  padding: 20px;
+  justify-content: center; }
+
+@media (max-width: 800px) {
+  .mapa-mobile {
+    display: flex;
+    justify-content: center;
+    padding: 20px; }
+  .mapa-desktop {
+    display: none; } }
 
 * {
   box-sizing: border-box; }

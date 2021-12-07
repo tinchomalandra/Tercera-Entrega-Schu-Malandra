@@ -16,3 +16,24 @@
         font-family: $font-secondary;
     }
 }
+
+.mapa-mobile{
+    display: none;
+}
+
+.mapa-desktop{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+@media (max-width: $width-mobile){
+    .mapa-mobile{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .mapa-desktop{
+        display: none;
+    }
+}
