@@ -113,9 +113,14 @@ footer{
     body{
         background-image: url(../public/img/piano-fondo-mobile.jpg);
     }
-
-    main .titular{
-        font-size: x-small;
+    
+    .home-main{
+        &.titular{
+            font-size: xx-small;
+        }
+        &.logo-schumann{
+            width: 100px;
+        }
     }
 
     .footer-pagina{
