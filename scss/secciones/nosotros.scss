@@ -1,7 +1,7 @@
 @import "secciones/variables.scss";
 
 .seccion-about{
-    & .titular-about h1{
+    & .titular-about{
         font-family: $font-main;
         color: $color-main;
         transition: .5s;
@@ -13,4 +13,11 @@
         font-family: $font-secondary;
         color: $color-main;
     }
+}
+
+.caption-foto-car{
+    font-family: $font-main;
+    text-shadow: 2px 2px $color-third;
+    color: $color-main;
+    font-size: xx-large;
 }

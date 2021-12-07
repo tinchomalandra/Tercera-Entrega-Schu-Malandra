@@ -2,7 +2,16 @@ body {
   margin: 0px;
   padding: 0px;
   background-image: url(../public/img/piano-fondo.jpg);
-  background-size: cover; }
+  background-size: cover;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; }
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .home-main {
   margin: 120px; }
@@ -13,14 +22,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 1s; }
+    transition: 1s;
+    animation-duration: 1s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
     .home-main .titular:hover {
       color: orangered; }
   .home-main .logo-grande {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 1s; }
+    transition: 1s;
+    animation-duration: 1s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%; }
+  to {
+    margin-right: 0%;
+    width: 100%; } }
     .home-main .logo-grande:hover {
       transform: scale(1.1); }
 
@@ -85,16 +114,22 @@ footer {
   .nov-main .articulos .cuerpo-art {
     font-family: "Roboto", sans-serif; }
 
-.seccion-about .titular-about h1 {
+.seccion-about .titular-about {
   font-family: "Bebas Neue", cursive;
   color: white;
   transition: .5s; }
-  .seccion-about .titular-about h1:hover {
+  .seccion-about .titular-about:hover {
     color: orangered; }
 
 .seccion-about .parrafo-about p {
   font-family: "Roboto", sans-serif;
   color: white; }
+
+.caption-foto-car {
+  font-family: "Bebas Neue", cursive;
+  text-shadow: 2px 2px black;
+  color: white;
+  font-size: xx-large; }
 
 .main-servicios .encabezado {
   font-family: "Bebas Neue", cursive;
