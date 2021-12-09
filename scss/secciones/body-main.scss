@@ -56,6 +56,10 @@ body{
         transition: 1s;
         animation-duration: 1s;
         animation-name: slidein;
+    
+    }
+    & .logo-chico{
+        display: none;
 
         @keyframes slidein {
             from {
@@ -112,14 +116,20 @@ footer{
 @media (max-width: $width-mobile){
     body{
         background-image: url(../public/img/piano-fondo-mobile.jpg);
+        background-size: cover;
     }
     
     .home-main{
         &.titular{
-            font-size: xx-small;
+            font-size: 50px;
+            display: flex;
         }
-        &.logo-schumann{
-            width: 100px;
+        & .logo-grande{
+            display: none;
+        }
+        & .logo-chico{
+            display: flex;
+            justify-content: center;
         }
     }
 
