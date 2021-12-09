@@ -12,6 +12,9 @@
     & .parrafo-about p{
         font-family: $font-secondary;
         color: $color-main;
+        font-family: $font-secondary;
+        text-align: justify;
+        text-justify: auto;
     }
 }
 

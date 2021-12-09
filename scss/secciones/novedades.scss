@@ -20,6 +20,8 @@
         }
         & .cuerpo-art{
             font-family: $font-secondary;
+            text-align: justify;
+            text-justify: auto;
         }
     }
 }

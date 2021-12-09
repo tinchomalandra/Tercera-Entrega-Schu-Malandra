@@ -114,7 +114,9 @@ footer {
   .nov-main .articulos .titulo-art {
     font-family: "Bebas Neue", cursive; }
   .nov-main .articulos .cuerpo-art {
-    font-family: "Roboto", sans-serif; }
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    text-justify: auto; }
 
 .seccion-about .titular-about {
   font-family: "Bebas Neue", cursive;
@@ -125,7 +127,10 @@ footer {
 
 .seccion-about .parrafo-about p {
   font-family: "Roboto", sans-serif;
-  color: white; }
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  text-justify: auto; }
 
 .caption-foto-car {
   font-family: "Bebas Neue", cursive;
